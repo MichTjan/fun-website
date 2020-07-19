@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<!-- 	<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="I am Michela Tjan, an Indonesian golfer with interests in web design. I play golf 
+    internationally.">
+    <meta name="author" content="Michela Tjan">
+    <meta name="keyword" content="Michela, michela, MichelaTjan, Michela Tjan, michelatjan, tjan, Tjan, TjanMichela, tjanmichela,
+    Mich, golf, golfer, girl, woman, women, Indonesian, Indo, web, web design, design, designing, ping, taylormade, callaway,
+    international, internationally, sport, sports, college, college golf, student, students, student athlete, athlete, athletes,
+    student athletes, studentathlete, computer, computers, laptop, laptops, website, websites, make, make websites, make website,">
+    <meta name="robot" content="index,follow">
+	
+	<title>MichT</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito&display=swap" rel="stylesheet">
+	<!-- Animate -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Font Awesome -->
+<!--<script src="https://kit.fontawesome.com/f96da8faf8.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+	<!-- Nav -->
+	<nav>
+		<div class="navbar" id="navbar">
+			<a href="index.html">
+				<h1 class="oneline logo">Michela Tjan</h1>
+			</a>
+
+			<ul>
+				<li class="dropdown">
+					  <a href="#projects" class="nav-list dropbtn">Projects</a>
+					  <div class="dropdown-content">
+					    <a href="maynooth.html#maynooth_project">Maynooth</a>
+					    <a href="roarbikes.html#roarbikes_project">Roar Bikes</a>
+					  </div>
+				</li>
+				<li><a href="#activities"class="nav-list">Activities</a></li>
+				<li><a href="#contact"class="nav-list">Contact</a></li>
+<!-- <li class="nav-list"><a href="">About</a></li> -->
+			</ul>
+		</div>
+	</nav>
+
+	<!-- sidenav -->
+	<div id="mySidenav" class="sidenav">
+	  <a href="#navbar" class="top">Back to Top</a>
+	  <a href="#projects" class="project1">Projects</a>
+	  <a href="#activities" class="activity">Activities</a>
+	  <a href="#contact" class="contact1">Contact</a>
+	</div>
+
+	<!-- content -->
+	<section class="container">
+		<div class="hero">
+			<h3 class="hero1 responsive" data-aos="zoom-out" data-aos-duration="2000">I am a</h3>
+				<div class="herotext">
+					
+					<div class="herobawah responsive" data-aos="zoom-in" data-aos-duration="2000">
+						<h1 class="web responsive">webdesigner</h1>
+					</div>
+				</div>
+			<a href="#projects" class="stay-bottom" ><img src="logo/redgreen_arrow.svg" width="50vw" class="grow responsive"></a>
+		</div>
+
+		<div class="overlay"></div>
+
+		<div class="projects" id="projects">
+			<div>
+				<h2 class="change-color" data-aos="fade-down" data-aos-duration="1600" data-aos-easing="ease-out-quart">Projects</h2>
+			</div>
+			<div class="logos">
+				<a href="maynooth.html#maynooth_project" data-aos="flip-down" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay="200"><img src="img/maynooth.jpg" class="img1"></a>
+				<a href="roarbikes.html#roarbikes_project" data-aos="flip-down" data-aos-duration="1500" data-aos-easing="ease-in-out"data-aos-delay="200"><img src="img/Roar Bikes Logo.jpg" class="img2"></a>
+			</div>
+			<div>
+				<a href="#activities"><img src="logo/greenred_arrow.svg" width="50vw" class="grow"></a>
+			</div>
+		</div>
+
+		<div class="activities" id="activities">
+			<h2 class="grid change-color" style="color:#c9c9c9;" data-aos="zoom-out" data-aos-duration="1600" data-aos-easing="ease-in-out">Activities</h2>
+
+			<div class="golf-all">
+			<div class="golf-act" data-aos="slide-right" data-aos-duration="1600" data-aos-easing="ease-in-out">
+				<p class="up">Indonesian National Golf Team Member</p>
+				<p class="list">- I have represented Indonesia in numerous prestigious golf tournaments around the globe.</p>
+				<p class="up">Keiser University Women's Golf Team Member</p>
+				<p class="list">- 2019 NAIA Individual Women's National Championship Winner</p>
+				<p class="list">- Representative in ACE student-athlete leadership program</p>
+			</div>
+			<div class="golf" data-aos="slide-left" data-aos-duration="1600" data-aos-easing="ease-in-out">
+				<img src="logo/golf-vector.svg" class="golf-img">
+				<a href="https://www.vecteezy.com/free-vector/golf" class="golf-text responsive">Golf Vectors by Vecteezy</a>
+			</div>
+		</div>
+
+			<div class="grid2">
+				<a href="#contact"><img src="logo/redgreen_arrow.svg" width="50vw" class="grow"></a>
+			</div>
+		</div>
+
+		<div class="contact" id="contact">
+			<div class="contact-form">
+				<h2 class="change-color" data-aos="slide-down" data-aos-duration="1600" data-aos-easing="ease-in-out">Feel free to leave a message!</h2>
+
+				<form method="POST" action="https://formspree.io/xvowvnqv" method="POST" class="form-class" data-aos="zoom-out" data-aos-duration="1600" data-aos-easing="ease-in-out">
+					<div class="form-group">
+						<input type="text" id="name" name="name" placeholder="Name" class="form-text">
+					</div>
+					<div class="form-group">
+						<input type="text" id="email" name="name" placeholder="Email" class="form-text">
+					</div>
+					<div class="form-group">
+						<textarea id="message" name="name" placeholder="Type your message here" style="height:20px" class="form-text"></textarea>
+					</div>
+
+					<input id="submit" name="name" type="submit" value="Send">
+
+				</form>
+			</div>
+		</div>
+
+	</section>
+	<!-- footer -->
+	<footer>
+		<div class="footer-div">
+			<ul>
+				<li class="footer-list"><a href="#projects">Projects</a></li>
+				<li class="footer-list"><a href="#activities">Activities</a></li>
+				<li class="footer-list"><a href="#contact">Contact</a></li>
+			</ul>
+			<div>
+				<a href="#navbar">
+					<h3 class="oneline logo">Michela Tjan</h3>
+				</a>
+				<p class="footer-p">Copyright 2020|MichelaTjan</p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

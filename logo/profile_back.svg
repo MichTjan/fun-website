@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="501" viewBox="0 0 1366 501">
+  <g id="Group_22" data-name="Group 22" transform="translate(-277 -788)">
+    <g id="Group_7" data-name="Group 7" transform="translate(-238 -298)">
+      <g id="Group_23" data-name="Group 23">
+        <g id="Rectangle_25" data-name="Rectangle 25" transform="translate(515 1086)" fill="#fff" stroke="#707070" stroke-width="3">
+          <rect width="1366" height="501" rx="15" stroke="none"/>
+          <rect x="1.5" y="1.5" width="1363" height="498" rx="13.5" fill="none"/>
+        </g>
+        <line id="Line_9" data-name="Line 9" x2="1365.638" transform="translate(515.362 1125.2)" fill="none" stroke="#707070" stroke-width="3"/>
+        <circle id="Ellipse_9" data-name="Ellipse 9" cx="7" cy="7" r="7" transform="translate(532 1100)" fill="#707070"/>
+        <circle id="Ellipse_10" data-name="Ellipse 10" cx="7" cy="7" r="7" transform="translate(549 1100)" fill="#707070"/>
+        <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="6.5" cy="7" rx="6.5" ry="7" transform="translate(566 1100)" fill="#707070"/>
+      </g>
+    </g>
+    <text id="http:_michelatjan.io_profile" data-name="http://michelatjan.io/profile" transform="translate(402 816)" fill="#5e5e5e" font-size="24" font-family="GlacialIndifference-Regular, Glacial Indifference"><tspan x="0" y="0">http://michelatjan.io/</tspan><tspan y="0" font-family="GlacialIndifference-Bold, Glacial Indifference" font-weight="700">profile</tspan></text>
+  </g>
+</svg>
